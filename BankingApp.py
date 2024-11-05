@@ -4,7 +4,7 @@ def show_balance(balance):
     print(f"Your balance is ${balance:.2f}")
 
 def deposit():
-    amount  = float( input("Enter an amount to be deposited: "))
+    amount  = float( input("Enter an amount to be deposited:  "))
     
     if amount < 0:
         print("That's not a valid amount")
